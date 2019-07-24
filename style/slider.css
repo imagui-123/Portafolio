@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que respete el ancho*/
+}
+
+h1, h2, h4, h5{
+    text-transform: uppercase;
+    color: #444;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 26px;
+    color: #333;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: normal; /* quitar la letra negrita  */
+    color: #777;
+}
+
+h4{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+p{
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.navbar{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 10;  /* tiene mayor importancia y va al frente  */
+}
+
+.navMenu{
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+a.navbar-item{
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#particles-js{
+    background: url(../img/laptop2.jpg);
+    background-position: center;
+    background-attachment: contain; /*para obligar que este dentro de los valores que le mandemos  */
+    background-size: cover; /* mismo tamaño del contenedor */
+    width: 100%;
+}
+
+.media-content{
+    top: 100px;
+    position: absolute;  /* sirve para romper el orden */
+    width: 100%;
+    z-index: 1;
+}
+
+.title{
+    width: 80%;
+    margin: auto;
+}
+
+.title p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+.title h3{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.wap{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px; 
+    text-align: center;
+}
+
+.bienvenidos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tile-1 {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero{
+    /* background-color: ; */
+    background: url(../img/codigo.jpg);
+    background-repeat: no-repeat; /*No se repetira*/
+    background-size: cover; /* imagen al 100% del ancho*/
+    background-attachment: fixed; /*posicion fija para la imagen*/
+    text-align: center;
+    margin: auto;
+}
+
+.hero h3{
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 21px;
+    height: 100%;
+    padding-top: 6%; /*para que las letras queden a la mitad*/
+}
+
+
+@media screen and (max-width: 480px){
+    .title p{
+        margin-top: 0px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .title h3{
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    
+    .title p{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+    }
+    
+    .title h3{
+        color: #fff;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+    .title p{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5rem;
+    }
+    
+    .title h3{
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+    }
+}
