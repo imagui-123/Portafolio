@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Catamaran|Darker+Grotesque|Lato|Montserrat|Poppins|Roboto&display=swap');
+/* font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Catamaran', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +14,9 @@
 }
 
 h1, h2, h4, h5{
-    text-transform: uppercase;
-    color: #444;
+    color: #0E2F73;
     font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -17,9 +25,9 @@ h2{
     color: #333;
 }
 
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
     padding-top: 20px;
     font-weight: normal; /* quitar la letra negrita  */
@@ -60,7 +68,7 @@ p{
 }
 
 a.navbar-item{
-    color: gray;
+    color: #F28705;
     font-size: 18px;
     text-decoration: none;
     padding-left: 15px;
@@ -70,7 +78,7 @@ a.navbar-item{
 }
 
 #particles-js{
-    background: url(../img/laptop2.jpg);
+    background: url(../img/home-office.jpg);
     background-position: center;
     background-attachment: contain; /*para obligar que este dentro de los valores que le mandemos  */
     background-size: cover; /* mismo tamaño del contenedor */
@@ -78,7 +86,7 @@ a.navbar-item{
 }
 
 .media-content{
-    top: 100px;
+    top: 200px;
     position: absolute;  /* sirve para romper el orden */
     width: 100%;
     z-index: 1;
@@ -90,15 +98,15 @@ a.navbar-item{
 }
 
 .title p{
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    color: #F24949;
+    font-family: 'Acme', sans-serif;
     font-size: 5rem;
 }
 
 .title h3{
-    color: #fff;
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
+    color: #F24949;
+    font-size: 4rem;
+    font-family: 'Acme', sans-serif;
     padding-top: 50px;
 }
 
@@ -122,7 +130,7 @@ a.navbar-item{
 
 .hero{
     /* background-color: ; */
-    background: url(../img/codigo.jpg);
+    background: url(../img/code-js.jpg);
     background-repeat: no-repeat; /*No se repetira*/
     background-size: cover; /* imagen al 100% del ancho*/
     background-attachment: fixed; /*posicion fija para la imagen*/
@@ -138,33 +146,57 @@ a.navbar-item{
     padding-top: 6%; /*para que las letras queden a la mitad*/
 }
 
+.contact-form {
+    margin-top: 40px;
+   }
+   .contact-form input, .contact-form textarea {
+    width: 100%;
+    outline: 0;
+    border: 1px solid #aaaaaa;
+    padding: 12px;
+    color: #999999;
+    margin-bottom: 30px;
+   }
+   .contact-form input:focus, .contact-form textarea:focus {
+    outline: 0;
+   }
+   .contact-form .button {
+    width: auto;
+    background: #eaaaa0;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+   }
+
 
 @media screen and (max-width: 480px){
     .title p{
         margin-top: 0px;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1rem;
-    }
-    
-    .title h3{
-        color: #fff;
-        font-size: 1rem;
-        font-family: 'Poppins', sans-serif;
-        padding-top: 10px;
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width: 1023px) {
-    
-    .title p{
-        color: #fff;
+        color: #DD1653;
         font-family: 'Montserrat', sans-serif;
         font-size: 3rem;
     }
     
     .title h3{
-        color: #fff;
+        color: #DD1653;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+    }
+}
+
+
+
+/* @media screen and (min-width: 481px) and (max-width: 1023px) {
+    
+    .title p{
+        color: #DD1653;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+    }
+    
+    .title h3{
+        color: #DD1653;
         font-size: 2rem;
         font-family: 'Poppins', sans-serif;
         padding-top: 10px;
@@ -173,15 +205,15 @@ a.navbar-item{
 
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
     .title p{
-        color: #fff;
+        color: #DD1653;
         font-family: 'Montserrat', sans-serif;
         font-size: 5rem;
     }
     
     .title h3{
-        color: #fff;
+        color: #DD1653;
         font-size: 3rem;
         font-family: 'Poppins', sans-serif;
         padding-top: 10px;
     }
-}
+} */
