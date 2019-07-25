@@ -98,13 +98,22 @@ a.navbar-item{
 }
 
 .title p{
-    color: #F24949;
+    /* color: #DF9AF9; */
+    text-align:center; 
+    color:  #8E00C6;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
     font-family: 'Acme', sans-serif;
     font-size: 5rem;
 }
 
 .title h3{
-    color: #F24949;
+    text-align:center; 
+    color:  #8E00C6;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
     font-size: 4rem;
     font-family: 'Acme', sans-serif;
     padding-top: 50px;
@@ -171,17 +180,25 @@ a.navbar-item{
 
 @media screen and (max-width: 480px){
     .title p{
-        margin-top: 0px;
-        color: #DD1653;
-        font-family: 'Montserrat', sans-serif;
+        /* color: #DF9AF9; */
+        text-align:center; 
+        color:  #8E00C6;
+        font-size: 40px;
+        letter-spacing: 0;
+        text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+        font-family: 'Acme', sans-serif;
         font-size: 3rem;
     }
     
     .title h3{
-        color: #DD1653;
+        text-align:center; 
+        color:  #8E00C6;
+        font-size: 40px;
+        letter-spacing: 0;
+        text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
         font-size: 2rem;
-        font-family: 'Poppins', sans-serif;
-        padding-top: 10px;
+        font-family: 'Acme', sans-serif;
+        padding-top: 50px;
     }
 }
 
