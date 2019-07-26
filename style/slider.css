@@ -6,7 +6,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Acme', sans-serif;
 font-family: 'Catamaran', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Dosis&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +24,12 @@ h2{
     font-size: 26px;
     color: #333;
 }
-
+.full-screen{
+    padding-top: 10vh;
+}
+.larger-screen{
+    height: auto;
+}
 .text{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -33,6 +38,15 @@ h2{
     font-weight: normal; /* quitar la letra negrita  */
     color: #777;
 }
+
+.about-me{
+    max-width: 60%;
+    margin:auto;
+    padding-bottom: 5rem;
+}
+/* #projects{
+    he
+} */
 
 h4{
     margin-top: 15px;
@@ -55,9 +69,10 @@ p{
 
 .navbar{
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.75);
     position: fixed;
     z-index: 10;  /* tiene mayor importancia y va al frente  */
+    
 }
 
 .navMenu{
@@ -65,20 +80,28 @@ p{
     padding-top: 20px;
     box-sizing: border-box;
     display: inline;
+    
+
 }
+/* .navbar-start a{
+    font-family: 'Dosis', sans-serif !important;
+    text-transform: uppercase;
+    color:rgb(0, 119, 255);
+} */
 
 a.navbar-item{
-    color: #F28705;
     font-size: 18px;
     text-decoration: none;
     padding-left: 15px;
     font-weight: bold;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dosis', sans-serif !important;
+    text-transform: uppercase;
+    color:rgb(120, 182, 253);
 }
 
 #particles-js{
-    background: url(../img/home-office.jpg);
+    background: url(../img/home-office-dark.jpg);
     background-position: center;
     background-attachment: contain; /*para obligar que este dentro de los valores que le mandemos  */
     background-size: cover; /* mismo tamaño del contenedor */
@@ -95,28 +118,54 @@ a.navbar-item{
 .title{
     width: 80%;
     margin: auto;
-}
+    background-image: linear-gradient(to right bottom, #020f23b0, #071d3ec2, #08284eba, #09519ec2, #1174d2c2);
+padding:1.65rem;
+max-width: 50%;}
 
-.title p{
+
+.title p {
     /* color: #DF9AF9; */
-    text-align:center; 
-    color:  #8E00C6;
+    text-align: center;
+    color: #ffffff;
     font-size: 40px;
     letter-spacing: 0;
-    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
-    font-family: 'Acme', sans-serif;
+    /* text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff; */
+    /* font-family: 'Acme', sans-serif; */
     font-size: 5rem;
+    margin: 1rem auto 0 auto;
+    font-weight: 100;
+    line-height: 3.5rem;
+    font-family: 'Audiowide', cursive;
 }
 
-.title h3{
+.title p span{
+    font-family: 'Dosis', sans-serif;
+
+    font-size: 2rem;
+    padding-top:0;
+    margin:0;
+}
+
+/* .title h3{
     text-align:center; 
-    color:  #8E00C6;
+    color: #8C3756;
     font-size: 40px;
     letter-spacing: 0;
     text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
     font-size: 4rem;
     font-family: 'Acme', sans-serif;
     padding-top: 50px;
+} */
+
+.sec-title{
+    font-size: 72px;
+background-image: linear-gradient(to right bottom, #051937, #0d2c56, #144177, #18579a, #176ebe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Dosis', sans-serif;
+text-transform: uppercase;
+font-size: 3.5rem;
+margin: 4rem auto 2rem auto;
 }
 
 .wap{
@@ -182,7 +231,7 @@ a.navbar-item{
     .title p{
         /* color: #DF9AF9; */
         text-align:center; 
-        color:  #8E00C6;
+        color:  #8C3756;
         font-size: 40px;
         letter-spacing: 0;
         text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
@@ -192,7 +241,7 @@ a.navbar-item{
     
     .title h3{
         text-align:center; 
-        color:  #8E00C6;
+        color:  #8C3756;
         font-size: 40px;
         letter-spacing: 0;
         text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
