@@ -247,3 +247,31 @@ a.navbar-item {
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        width: 100%;
+        margin: auto;
+        padding: 1.65rem;
+        max-width: 80%;
+    }
+
+    .title p {
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0;
+        font-size: 3.5rem;
+        margin: 1rem auto 0 auto;
+        line-height: 2.5rem;
+        font-family: 'Audiowide', cursive;
+    }
+
+    .title p span {
+        font-family: 'Dosis', sans-serif;
+
+        font-size: 2rem;
+        padding-top: 0;
+        margin: 0;
+    }
+
+}
