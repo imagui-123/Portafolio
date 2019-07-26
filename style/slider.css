@@ -1,59 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Catamaran|Darker+Grotesque|Lato|Montserrat|Poppins|Roboto&display=swap');
-/* font-family: 'Darker Grotesque', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Acme', sans-serif;
-font-family: 'Catamaran', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Audiowide|Dosis&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Dosis&display|Acme|Catamaran|Darker+Grotesque|Lato|Montserrat|Poppins|Roboto&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*para que respete el ancho*/
+    box-sizing: border-box;
+    /*para que respete el ancho*/
 }
 
-h1, h2, h4, h5{
+h1,
+h2,
+h4,
+h5 {
     color: #0E2F73;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 
-h2{
+h2 {
     font-size: 26px;
     color: #333;
 }
-.full-screen{
+
+.full-screen {
     padding-top: 10vh;
 }
-.larger-screen{
+
+.larger-screen {
     height: auto;
 }
-.text{
+
+.text {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding-top: 20px;
-    font-weight: normal; /* quitar la letra negrita  */
+    font-weight: normal;
+    /* quitar la letra negrita  */
     color: #777;
 }
 
-.about-me{
+.about-me {
     max-width: 60%;
-    margin:auto;
+    margin: auto;
     padding-bottom: 5rem;
 }
-/* #projects{
-    he
-} */
 
-h4{
+
+h4 {
     margin-top: 15px;
     font-size: 16px;
 }
 
-h5{
+h5 {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-weight: normal;
@@ -61,35 +60,29 @@ h5{
     font-size: 12px;
 }
 
-p{
+p {
     color: #888;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     background: rgba(0, 0, 0, 0.75);
     position: fixed;
-    z-index: 10;  /* tiene mayor importancia y va al frente  */
-    
+    z-index: 10;
+    /* tiene mayor importancia y va al frente  */
+
 }
 
-.navMenu{
+.navMenu {
     text-align: right;
     padding-top: 20px;
     box-sizing: border-box;
     display: inline;
-    
-
 }
-/* .navbar-start a{
-    font-family: 'Dosis', sans-serif !important;
-    text-transform: uppercase;
-    color:rgb(0, 119, 255);
-} */
 
-a.navbar-item{
+a.navbar-item {
     font-size: 18px;
     text-decoration: none;
     padding-left: 15px;
@@ -97,40 +90,41 @@ a.navbar-item{
     letter-spacing: 1px;
     font-family: 'Dosis', sans-serif !important;
     text-transform: uppercase;
-    color:rgb(120, 182, 253);
+    color: rgb(120, 182, 253);
 }
 
-#particles-js{
+#particles-js {
     background: url(../img/home-office-dark.jpg);
     background-position: center;
-    background-attachment: contain; /*para obligar que este dentro de los valores que le mandemos  */
-    background-size: cover; /* mismo tamaño del contenedor */
+    background-attachment: contain;
+    /*para obligar que este dentro de los valores que le mandemos  */
+    background-size: cover;
+    /* mismo tamaño del contenedor */
     width: 100%;
 }
 
-.media-content{
+.media-content {
     top: 200px;
-    position: absolute;  /* sirve para romper el orden */
+    position: absolute;
+    /* sirve para romper el orden */
     width: 100%;
     z-index: 1;
 }
 
-.title{
+.title {
     width: 80%;
     margin: auto;
     background-image: linear-gradient(to right bottom, #020f23b0, #071d3ec2, #08284eba, #09519ec2, #1174d2c2);
-padding:1.65rem;
-max-width: 50%;}
+    padding: 1.65rem;
+    max-width: 50%;
+}
 
 
 .title p {
-    /* color: #DF9AF9; */
     text-align: center;
     color: #ffffff;
     font-size: 40px;
     letter-spacing: 0;
-    /* text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff; */
-    /* font-family: 'Acme', sans-serif; */
     font-size: 5rem;
     margin: 1rem auto 0 auto;
     font-weight: 100;
@@ -138,44 +132,33 @@ max-width: 50%;}
     font-family: 'Audiowide', cursive;
 }
 
-.title p span{
+.title p span {
     font-family: 'Dosis', sans-serif;
 
     font-size: 2rem;
-    padding-top:0;
-    margin:0;
+    padding-top: 0;
+    margin: 0;
 }
 
-/* .title h3{
-    text-align:center; 
-    color: #8C3756;
-    font-size: 40px;
-    letter-spacing: 0;
-    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
-    font-size: 4rem;
-    font-family: 'Acme', sans-serif;
-    padding-top: 50px;
-} */
-
-.sec-title{
+.sec-title {
     font-size: 72px;
-background-image: linear-gradient(to right bottom, #051937, #0d2c56, #144177, #18579a, #176ebe);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Dosis', sans-serif;
-text-transform: uppercase;
-font-size: 3.5rem;
-margin: 4rem auto 2rem auto;
+    background-image: linear-gradient(to right bottom, #051937, #0d2c56, #144177, #18579a, #176ebe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin: 4rem auto 2rem auto;
 }
 
-.wap{
+.wap {
     width: 90%;
     margin: auto;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     text-align: center;
 }
 
-.bienvenidos{
+.bienvenidos {
     margin-top: 50px;
     text-align: center;
 }
@@ -186,100 +169,81 @@ margin: 4rem auto 2rem auto;
     margin-bottom: 50px;
 }
 
-.hero{
+.hero {
     /* background-color: ; */
     background: url(../img/code-js.jpg);
-    background-repeat: no-repeat; /*No se repetira*/
-    background-size: cover; /* imagen al 100% del ancho*/
-    background-attachment: fixed; /*posicion fija para la imagen*/
+    background-repeat: no-repeat;
+    /*No se repetira*/
+    background-size: cover;
+    /* imagen al 100% del ancho*/
+    background-attachment: fixed;
+    /*posicion fija para la imagen*/
     text-align: center;
     margin: auto;
 }
 
-.hero h3{
+.hero h3 {
     background: rgba(0, 0, 0, .5);
     color: #fff;
     font-size: 21px;
     height: 100%;
-    padding-top: 6%; /*para que las letras queden a la mitad*/
+    padding-top: 6%;
+    /*para que las letras queden a la mitad*/
 }
 
 .contact-form {
     margin-top: 40px;
-   }
-   .contact-form input, .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     outline: 0;
     border: 1px solid #aaaaaa;
     padding: 12px;
     color: #999999;
     margin-bottom: 30px;
-   }
-   .contact-form input:focus, .contact-form textarea:focus {
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
     outline: 0;
-   }
-   .contact-form .button {
+}
+
+.contact-form .button {
     width: auto;
     background: #eaaaa0;
     color: white;
     text-transform: uppercase;
     border: 0;
-   }
-
-
-@media screen and (max-width: 480px){
-    .title p{
-        /* color: #DF9AF9; */
-        text-align:center; 
-        color:  #8C3756;
-        font-size: 40px;
-        letter-spacing: 0;
-        text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
-        font-family: 'Acme', sans-serif;
-        font-size: 3rem;
-    }
-    
-    .title h3{
-        text-align:center; 
-        color:  #8C3756;
-        font-size: 40px;
-        letter-spacing: 0;
-        text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
-        font-size: 2rem;
-        font-family: 'Acme', sans-serif;
-        padding-top: 50px;
-    }
 }
 
 
-
-/* @media screen and (min-width: 481px) and (max-width: 1023px) {
-    
-    .title p{
-        color: #DD1653;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 3rem;
+@media screen and (max-width: 480px) {
+    .title {
+        width: 100%;
+        margin: auto;
+        padding: 1.65rem;
+        max-width: 80%;
     }
-    
-    .title h3{
-        color: #DD1653;
+
+    .title p {
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0;
         font-size: 2rem;
-        font-family: 'Poppins', sans-serif;
-        padding-top: 10px;
+        margin: 1rem auto 0 auto;
+        /* font-weight: 100; */
+        line-height: 2.5rem;
+        font-family: 'Audiowide', cursive;
     }
-}
 
-@media screen and (min-width: 1024px) and (max-width: 1215px) {
-    .title p{
-        color: #DD1653;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 5rem;
+    .title p span {
+        font-family: 'Dosis', sans-serif;
+
+        font-size: 1rem;
+        padding-top: 0;
+        margin: 0;
     }
-    
-    .title h3{
-        color: #DD1653;
-        font-size: 3rem;
-        font-family: 'Poppins', sans-serif;
-        padding-top: 10px;
-    }
-} */
+
+}
