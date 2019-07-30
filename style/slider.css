@@ -262,7 +262,7 @@ a.navbar-item {
         letter-spacing: 1px;
         font-family: 'Dosis', sans-serif !important;
         text-transform: uppercase;
-        color: blue;
+        color: rgb(120, 182, 253);
     }
     .navbar-brand{
         background: linear-gradient(to right bottom, #020f23b0, #071d3ec2, #08284eba, #09519ec2, #1174d2c2);
@@ -309,7 +309,7 @@ a.navbar-item {
         letter-spacing: 1px;
         font-family: 'Dosis', sans-serif !important;
         text-transform: uppercase;
-        color: blue;
+        color: rgb(120, 182, 253);
     }
 
     .navbar-brand{
