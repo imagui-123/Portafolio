@@ -93,6 +93,15 @@ a.navbar-item {
     color: rgb(120, 182, 253);
 }
 
+.navbar-brand, .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+
+
+
 #particles-js {
     background: url(../img/home-office-dark.jpg);
     background-position: center;
@@ -245,6 +254,26 @@ a.navbar-item {
         padding-top: 0;
         margin: 0;
     }
+    a.navbar-item {
+        font-size: 18px;
+        text-decoration: none;
+        padding-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'Dosis', sans-serif !important;
+        text-transform: uppercase;
+        color: blue;
+    }
+    .navbar-brand{
+        background: linear-gradient(to right bottom, #020f23b0, #071d3ec2, #08284eba, #09519ec2, #1174d2c2);
+        ;
+    }
+    a:hover {
+        color: white;
+    }
+    .navbar-burger:hover {
+        background-color: rgba(0,0,0,.05);
+    }
 
 }
 
@@ -271,5 +300,26 @@ a.navbar-item {
         font-size: 2rem;
         padding-top: 0;
         margin: 0;
+    }
+    a.navbar-item {
+        font-size: 18px;
+        text-decoration: none;
+        padding-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'Dosis', sans-serif !important;
+        text-transform: uppercase;
+        color: blue;
+    }
+
+    .navbar-brand{
+        background: linear-gradient(to right bottom, #020f23b0, #071d3ec2, #08284eba, #09519ec2, #1174d2c2);
+        ;
+    }
+    a:hover {
+        color: white;
+    }
+    .navbar-burger:hover {
+        background-color: rgba(0,0,0,.05);
     }
 }
