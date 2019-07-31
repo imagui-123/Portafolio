@@ -227,6 +227,9 @@ a.navbar-item {
     border: 0;
 }
 
+.social-icons{
+    align-content: space-between;
+}
 
 @media screen and (max-width: 480px) {
     .title {
